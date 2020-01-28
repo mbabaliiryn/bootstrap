@@ -55,9 +55,6 @@ button {
   font-size: 25px;
   font-weight: bold;
 }
-h1 {
-  font-size: 1.5rem;
-}
 
 .nav-item:hover {
   color: #f10909;
@@ -76,70 +73,75 @@ h1 {
     font-weight: bold;
 }
 
-.column {
-  float: left;
-  width: 20%;
-  padding-left: 30px;
-}
-
-.title {
-  font-size: 23px;
+.main-title {
+  font-size: 1.5rem;
   font-weight: bold;
-  color: rgb(114, 108, 108);
+  color: rgb(170, 163, 163);
 }
 
 .card-title {
-  font-size: 30px;
-  font-weight: bolder;
-  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(10, 10, 10);
+
 }
 
 .card-title:hover {
-  text-decoration:underline;
   cursor: pointer;
+  text-decoration: underline;
   text-decoration-color: red;
-}
-
-
-.side-bar {
-  margin-left: 73%;  
-}
-
-.auth {
-  font-size: 20px;
-  font-weight: bold;
-  color: rgb(190, 187, 187);
-}
-
-.side-link {
-  list-style: none;
-  font-size: 25px;
-  color: black;
-  position: -webkit-sticky;
-  /* margin-left: 10px;
-  margin-top: 30px; */
-  display: flex;
-}
-
-.side-link:hover {
-  color: #f10909;
-  list-style: none;
-  cursor: pointer;
 }
 
 .card-text {
   font-size: 1.5rem;
+
 }
 
-.avatar {
-  vertical-align: ;
-  
-  
+.opinion:hover {
+  cursor: pointer;
+
 }
-button {
-  color: rgb(252, 10, 10);
-  background-color: #fff;
-  font-size: 20px;
+
+.sm-p {
+  font-size: 1.5rem;
   font-weight: bold;
-} 
+  color: rgb(2, 2, 2);
+}
+
+.sm-p:hover {
+  color: #f10909;
+  cursor: pointer;
+}
+
+.side-para {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(2, 2, 2);
+}
+
+.side-para:hover {
+  color: #f10909;
+  cursor: pointer;
+}
+
+.auth {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(46, 43, 43);
+}
+
+.side-par {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+}
+
+.side-par:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.col-3 {
+  border-radius: 0%;
+}
   
