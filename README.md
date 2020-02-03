@@ -11,7 +11,7 @@ BOOTSTRAP4
 
 
 # Live demo
-.[Live demo link].(http://127.0.0.1:5501/index.html)
+.[Live demo link](http://127.0.0.1:5501/index.html)
 
 # Contributing
 
