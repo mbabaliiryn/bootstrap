@@ -179,9 +179,10 @@ iframe {
   font-weight: bold;
 }
 
-#footer-news {
+.footer-news {
   font-size: 3rem;
   font-weight: bolder;
   color: #f10909;
   transform: translateX(-159px);
+  margin-left: 10rem;
 }
