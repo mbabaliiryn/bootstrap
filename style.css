@@ -5,71 +5,48 @@
   outline: none;
 }
 
-#header {
-  background-color: rgb(245, 26, 26);
+/* first nav section */
+.nav-item span {
+  color: aliceblue;
+  font-size: 1.5rem;
+  padding-top: 30px;
 }
 
-#nav-item {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-  color: #fff;
+.news-link {
+  font-size: 5rem;
+  font-weight: bold;
+  color: aliceblue;
 }
 
-#news {
-  font-size: 100px;
-  font-family: Arial, Helvetica, sans-serif;
+.news-link:hover {
+  text-decoration: none;
+  color: aliceblue;
 }
 
-#date {
-  font-size: 25px;
-  margin-top: 80px;
-}
-
-#news:hover {
-  cursor: pointer;
-}
-
-#sign {
-  margin-top: 80px;
-  font-size: 30px;
+.sign {
+  font-size: 2rem;
+  color: aliceblue;
   font-weight: bold;
 }
 
-#sign:hover {
-  cursor: pointer;
+.sign:hover {
+  text-decoration: none;
+  color: aliceblue;
 }
 
-button {
-  font-size: 30px;
-}
-
+/* second nav section */
 .nav {
-  justify-content: space-between;
-  color: black;
-  margin-left: 20px;
+  font-size: 2rem;
 }
 
-.nav-item {
-  font-size: 25px;
+.nav-link {
+  color: rgb(0, 0, 0);
   font-weight: bold;
+  border-right: 1px solid rgb(182, 174, 174);
 }
 
-.nav-item:hover {
-  color: #f10909;
-  cursor: pointer;
-}
-
-#search {
-  color: rgb(102, 92, 92);
-}
-
-#button {
-  color: rgb(245, 7, 7);
-  border: none;
-  background-color: #fff;
-  font-size: 25px;
-  font-weight: bold;
+.nav-link:hover {
+  color: rgb(253, 4, 4);
 }
 
 .main-title {
@@ -103,11 +80,6 @@ button {
 
 .card-text {
   font-size: 1.5rem;
-}
-
-.container2 {
-  background-color: black;
-  height: 30rem;
 }
 
 .container2-text {
@@ -172,26 +144,19 @@ iframe {
 }
 
 .footer-icons {
-  display: flex;
-  justify-content: space-evenly;
   font-size: 2rem;
   list-style: none;
-  width: 20rem;
-  margin-left: auto;
 }
 
 .footer-icon a {
   margin-top: -3px;
   color: black;
+  padding-left: 30px;
 }
 
 .footer-links {
-  display: flex;
-  justify-content: space-evenly;
   list-style: none;
-  margin: 0 30px;
   word-spacing: 20px;
-  margin-bottom: 80px;
   font-size: 1.5rem;
   color: rgb(145, 139, 139);
 }
@@ -219,5 +184,4 @@ iframe {
   font-weight: bolder;
   color: #f10909;
   transform: translateX(-159px);
-  margin-left: 10rem;
 }
