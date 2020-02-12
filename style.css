@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -39,8 +40,8 @@
 
 .nav-link {
   color: rgb(0, 0, 0);
-  border-right: 1px solid rgb(182, 174, 174);
   font-weight: bold;
+  border-right: 1px solid rgb(182, 174, 174);
 }
 
 .nav-link:hover {
@@ -128,10 +129,6 @@
   text-decoration-color: red;
 }
 
-.col-3 {
-  border-radius: 0%;
-}
-
 iframe {
   height: 479px;
   width: 56rem;
@@ -148,15 +145,15 @@ iframe {
 
 .footer-icon a {
   color: rgb(105, 100, 100);
-  margin-top: -3px;
   padding-left: 30px;
+  margin-top: -3px;
 }
 
 .footer-links {
   color: rgb(145, 139, 139);
-  list-style: none;
   font-size: 1.5rem;
   word-spacing: 20px;
+  list-style: none;
 }
 
 .footer-links li:hover {
@@ -179,8 +176,8 @@ iframe {
 
 .footer-news {
   color: #f10909;
-  font-weight: bolder;
   margin-left: 10rem;
   font-size: 3rem;
+  font-weight: bolder;
   transform: translateX(-159px);
 }
