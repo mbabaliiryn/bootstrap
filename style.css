@@ -34,8 +34,8 @@
 }
 
 .nav-link {
-  color: rgb(0, 0, 0);
-  border-right: 1px solid rgb(182, 174, 174);
+  color: black;
+  border-right: 1px solid grey;
   font-weight: bold;
 }
 
@@ -134,8 +134,8 @@ iframe {
 }
 
 .footer-icons {
-  list-style: none;
   font-size: 2rem;
+  list-style: none;
 }
 
 .footer-icon a {
@@ -172,7 +172,8 @@ iframe {
 .footer-news {
   color: red;
   margin-left: 10rem;
+  transform: translateX(-159px);
   font-size: 3rem;
   font-weight: bolder;
-  transform: translateX(-159px);
+  
 }
