@@ -40,8 +40,8 @@
 
 .nav-link {
   color: rgb(0, 0, 0);
-  font-weight: bold;
   border-right: 1px solid rgb(182, 174, 174);
+  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -145,15 +145,15 @@ iframe {
 
 .footer-icon a {
   color: rgb(105, 100, 100);
-  padding-left: 30px;
   margin-top: -3px;
+  padding-left: 30px;
 }
 
 .footer-links {
   color: rgb(145, 139, 139);
   font-size: 1.5rem;
-  word-spacing: 20px;
   list-style: none;
+  word-spacing: 20px;
 }
 
 .footer-links li:hover {
@@ -177,7 +177,8 @@ iframe {
 .footer-news {
   color: #f10909;
   margin-left: 10rem;
+  transform: translateX(-159px);
   font-size: 3rem;
   font-weight: bolder;
-  transform: translateX(-159px);
+  
 }
