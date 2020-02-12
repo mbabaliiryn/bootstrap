@@ -34,8 +34,8 @@
 }
 
 .nav-link {
-  color: black;
   border-right: 1px solid grey;
+  color: black;
   font-weight: bold;
 }
 
@@ -172,7 +172,7 @@ iframe {
 .footer-news {
   color: red;
   font-size: 3rem;
-  margin-left: 10rem;
   font-weight: bolder;
+  margin-left: 10rem;
   transform: translateX(-159px);
 }
