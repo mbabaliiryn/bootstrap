@@ -1,8 +1,6 @@
 * {
-  padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  outline: none;
+  padding: 0;
 }
 
 /* first nav section */
@@ -13,25 +11,25 @@
 }
 
 .news-link {
+  color: aliceblue;
   font-size: 5rem;
   font-weight: bold;
-  color: aliceblue;
 }
 
 .news-link:hover {
-  text-decoration: none;
   color: aliceblue;
+  text-decoration: none;
 }
 
 .sign {
-  font-size: 2rem;
   color: aliceblue;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .sign:hover {
-  text-decoration: none;
   color: aliceblue;
+  text-decoration: none;
 }
 
 /* second nav section */
@@ -41,8 +39,8 @@
 
 .nav-link {
   color: rgb(0, 0, 0);
-  font-weight: bold;
   border-right: 1px solid rgb(182, 174, 174);
+  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -50,21 +48,21 @@
 }
 
 .main-title {
+  color: rgb(170, 163, 163);
   font-size: 1.5rem;
   font-weight: bold;
-  color: rgb(170, 163, 163);
 }
 
 .card-title {
+  color: rgb(10, 10, 10);
   font-size: 2rem;
   font-weight: bold;
-  color: rgb(10, 10, 10);
 }
 
 .card-title2 {
+  color: #fff;
   font-size: 2rem;
   font-weight: bold;
-  color: #fff;
 }
 
 .card-title21:hover {
@@ -83,8 +81,8 @@
 }
 
 .container2-text {
-  font-size: 1.5rem;
   color: rgb(211, 208, 208);
+  font-size: 1.5rem;
 }
 
 .opinion:hover {
@@ -92,9 +90,9 @@
 }
 
 .sm-p {
+  color: rgb(2, 2, 2);
   font-size: 1.5rem;
   font-weight: bold;
-  color: rgb(2, 2, 2);
 }
 
 .sm-p:hover {
@@ -103,9 +101,9 @@
 }
 
 .side-para {
+  color: rgb(2, 2, 2);
   font-size: 1.3rem;
   font-weight: bold;
-  color: rgb(2, 2, 2);
 }
 
 .side-para:hover {
@@ -114,15 +112,15 @@
 }
 
 .auth {
+  color: rgb(46, 43, 43);
   font-size: 1.2rem;
   font-weight: bold;
-  color: rgb(46, 43, 43);
 }
 
 .side-par {
+  color: black;
   font-size: 1.3rem;
   font-weight: bold;
-  color: black;
 }
 
 .side-par:hover {
@@ -135,8 +133,8 @@
 }
 
 iframe {
-  width: 56rem;
   height: 479px;
+  width: 56rem;
 }
 
 .icon-container {
@@ -144,21 +142,21 @@ iframe {
 }
 
 .footer-icons {
-  font-size: 2rem;
   list-style: none;
+  font-size: 2rem;
 }
 
 .footer-icon a {
-  margin-top: -3px;
   color: rgb(105, 100, 100);
+  margin-top: -3px;
   padding-left: 30px;
 }
 
 .footer-links {
-  list-style: none;
-  word-spacing: 20px;
-  font-size: 1.5rem;
   color: rgb(145, 139, 139);
+  list-style: none;
+  font-size: 1.5rem;
+  word-spacing: 20px;
 }
 
 .footer-links li:hover {
@@ -168,21 +166,21 @@ iframe {
 
 .button {
   background-color: #f10909;
-  color: #fff;
   border: none;
+  color: #fff;
   font-weight: bold;
 }
 
 .side-par2 {
-  font-size: 2rem;
   color: rgb(12, 11, 11);
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .footer-news {
-  font-size: 3rem;
-  font-weight: bolder;
   color: #f10909;
-  transform: translateX(-159px);
+  font-weight: bolder;
   margin-left: 10rem;
+  font-size: 3rem;
+  transform: translateX(-159px);
 }
