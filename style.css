@@ -1,9 +1,4 @@
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 /* first nav section */
 .nav-item span {
   color: aliceblue;
@@ -45,7 +40,7 @@
 }
 
 .nav-link:hover {
-  color: rgb(253, 4, 4);
+  color: red;
 }
 
 .main-title {
@@ -175,10 +170,9 @@ iframe {
 }
 
 .footer-news {
-  color: #f10909;
+  color: red;
   margin-left: 10rem;
-  transform: translateX(-159px);
   font-size: 3rem;
   font-weight: bolder;
-  
+  transform: translateX(-159px);
 }
