@@ -171,9 +171,8 @@ iframe {
 
 .footer-news {
   color: red;
-  margin-left: 10rem;
-  transform: translateX(-159px);
   font-size: 3rem;
+  margin-left: 10rem;
   font-weight: bolder;
-  
+  transform: translateX(-159px);
 }
