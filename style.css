@@ -1,15 +1,25 @@
 
 /* first nav section */
+.header2 {
+  display: none;
+}
+
+.menu {
+  color: aliceblue;
+  font-size: 2rem;
+}
+.navbar {
+  background-color: red;
+}
+
 .nav-item span {
   color: aliceblue;
-  font-size: 1.5rem;
   padding-top: 30px;
 }
 
 .news-link {
   color: aliceblue;
-  font-size: 5rem;
-  font-weight: bold;
+  font-size: 2rem;
 }
 
 .news-link:hover {
@@ -19,7 +29,6 @@
 
 .sign {
   color: aliceblue;
-  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -29,14 +38,9 @@
 }
 
 /* second nav section */
-.nav {
-  font-size: 2rem;
-}
-
 .nav-link {
   border-right: 1px solid grey;
   color: black;
-  font-weight: bold;
 }
 
 .nav-link:hover {
@@ -45,19 +49,16 @@
 
 .main-title {
   color: rgb(170, 163, 163);
-  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .card-title {
   color: rgb(10, 10, 10);
-  font-size: 2rem;
   font-weight: bold;
 }
 
 .card-title2 {
   color: #fff;
-  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -72,13 +73,8 @@
   text-decoration-color: red;
 }
 
-.card-text {
-  font-size: 1.5rem;
-}
-
 .container2-text {
   color: rgb(211, 208, 208);
-  font-size: 1.5rem;
 }
 
 .opinion:hover {
@@ -87,7 +83,6 @@
 
 .sm-p {
   color: rgb(2, 2, 2);
-  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -98,7 +93,6 @@
 
 .side-para {
   color: rgb(2, 2, 2);
-  font-size: 1.3rem;
   font-weight: bold;
 }
 
@@ -108,14 +102,12 @@
 }
 
 .auth {
-  color: rgb(46, 43, 43);
-  font-size: 1.2rem;
+  color: rgb(175, 168, 168);
   font-weight: bold;
 }
 
 .side-par {
   color: black;
-  font-size: 1.3rem;
   font-weight: bold;
 }
 
@@ -134,7 +126,7 @@ iframe {
 }
 
 .footer-icons {
-  font-size: 2rem;
+  font-size: 1rem;
   list-style: none;
 }
 
@@ -146,7 +138,6 @@ iframe {
 
 .footer-links {
   color: rgb(145, 139, 139);
-  font-size: 1.5rem;
   list-style: none;
   word-spacing: 20px;
 }
@@ -165,14 +156,32 @@ iframe {
 
 .side-par2 {
   color: rgb(12, 11, 11);
-  font-size: 2rem;
   font-weight: bold;
 }
 
 .footer-news {
   color: red;
-  font-size: 3rem;
   font-weight: bolder;
-  margin-left: 10rem;
+  margin-left: 11rem;
   transform: translateX(-159px);
 }
+
+.editions {
+  margin-left: 4rem;
+}
+
+.card-body {
+  padding-left: 0;
+}
+
+/* Medium devices (desktops, 960px and up) */
+@media (min-width: 992px) {
+  .header1 {
+    display: none;
+  }
+
+  .header2 {
+    display: block;
+  }
+}
+
