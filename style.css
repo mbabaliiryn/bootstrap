@@ -8,7 +8,7 @@ body {
 }
 
 .menu {
-  color: aliceblue;
+  color: gray;
   font-size: 2rem;
 }
 
@@ -17,14 +17,14 @@ body {
 }
 
 .nav-item span {
-  padding-top: 30px;
   font-size: 1.5rem;
+  padding-top: 30px;
 }
 
 .sign {
-  font-size: 1.5rem;
   background-color: red;
   border: none;
+  font-size: 1.5rem;
 }
 
 .sign:hover {
@@ -32,10 +32,10 @@ body {
 }
 
 .subscribe {
-  color: #f10909;
   background-color: #fff;
-  font-size: 1.5rem;
   border: none;
+  color: #f10909;
+  font-size: 1.5rem;
   height: 50%;
 }
 
@@ -43,10 +43,6 @@ body {
   font-weight: 100;
 }
 
-.menu {
-  padding-left: 100px;
-  color: grey;
-}
 /* second nav section */
 .nav-link {
   border-right: 1px solid grey;
@@ -64,8 +60,8 @@ body {
 
 .main {
   border-top: 2px solid grey;
-  width: 100%;
   margin-left: 0;
+  width: 100%;
 }
 
 .date {
@@ -75,8 +71,8 @@ body {
 
 .main-title {
   color: rgb(170, 163, 163);
-  font-weight: bold;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .card-title {
@@ -87,7 +83,6 @@ body {
 
 .card-text {
   font-size: 1.5rem;
-
 }
 
 .card-title2 {
@@ -126,8 +121,8 @@ body {
 
 .side-para {
   color: rgb(2, 2, 2);
-  font-weight: bold;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .side-para:hover {
@@ -167,9 +162,9 @@ iframe {
 
 .footer-icon a {
   color: rgb(105, 100, 100);
+  font-size: 2rem;
   margin-top: -3px;
   padding-left: 30px;
-  font-size: 2rem;
 }
 
 .footer-links {
@@ -217,14 +212,14 @@ iframe {
   color: #fff;
   background-color: red;
   border: none;
-  margin-bottom: 100px;
   font-size: 1.5rem;
+  margin-bottom: 100px;
 }
 
 .footer-text {
+  color: black;
   font-size: 2rem;
   font-weight: bold;
-  color: black;
 }
 
 .footer-par {
@@ -271,7 +266,6 @@ iframe {
   .news-link {
     margin-left: 30px;
   }
-
 }
 
 /* Small devices (tablets, below 768) */
