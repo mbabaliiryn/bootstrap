@@ -249,6 +249,16 @@ iframe {
   justify-content: flex-end;
 }
 
+.but {
+  height: 10%;
+  color: #f10909;
+  border: none;
+  background-color: aliceblue;
+  margin-top: 250px;
+  position: absolute;
+
+}
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .header1 {
