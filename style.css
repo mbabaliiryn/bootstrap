@@ -55,7 +55,9 @@ body {
 }
 
 .nav {
+  di
   font-size: 1.7rem;
+  flex-wrap: nowrap;
 }
 
 .main {
@@ -230,7 +232,7 @@ iframe {
 }
 
 .opinion-img {
-  width: 15%;
+  width: 30%;
 }
 
 .latest-news-img {
@@ -258,8 +260,8 @@ iframe {
   position: relative;
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 991px and up) */
+@media (min-width: 991px) {
   .header1 {
     display: none;
   }
@@ -273,6 +275,40 @@ iframe {
 @media (min-width: 768px) {
   .news-link {
     margin-left: 30px;
+  }
+
+  .main .top {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+
+  .main .more {
+    order: 5;
+  }
+
+  .main .culture {
+    order: 4;
+  }
+
+  .main .featured {
+    order: 1;
+  }
+
+  .main .opinion {
+    order: 3;
+  }
+
+  .opinion-img {
+    width: 8%;
+  }
+
+  .latest-news-img {
+    width: 15%;
+  }
+
+  .mid {
+    margin-left: 25%;
   }
 }
 
@@ -302,5 +338,9 @@ iframe {
 
   .cons {
     justify-content: flex-start;
+  }
+
+  .opinion-img {
+    width: 10%;
   }
 }
