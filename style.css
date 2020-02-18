@@ -55,9 +55,9 @@ body {
 }
 
 .nav {
-  di
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   flex-wrap: nowrap;
+  width: 100%;
 }
 
 .main {
@@ -232,7 +232,7 @@ iframe {
 }
 
 .opinion-img {
-  width: 30%;
+  width: 30px;
 }
 
 .latest-news-img {
